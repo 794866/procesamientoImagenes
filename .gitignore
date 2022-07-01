@@ -1,3 +1,5 @@
 /spyderScripts/dataGenerated/generated/*
-/spyderScripts/dataGenerated/resized/*
+/spyderScripts/dataGenerated/resized/dni/*
+/spyderScripts/dataGenerated/resized/nodni/*
 imageGenerator/*
+.idea/*

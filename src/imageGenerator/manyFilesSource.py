@@ -6,7 +6,7 @@ from tensorflow.keras.preprocessing.image import img_to_array
 from tensorflow.keras.preprocessing.image import load_img
 from os import listdir
 
-loadPath = '/home/nbellorin/PycharmProjects/procesamientoImagenes/spyderScripts/dataGenerated/original/'
+loadPath = '/home/nbellorin/PycharmProjects/procesamientoImagenes/spyderScripts/dataGenerated/licensia/'
 savePath = '/home/nbellorin/PycharmProjects/procesamientoImagenes/spyderScripts/dataGenerated/generated/'
 
 def firstMehod():

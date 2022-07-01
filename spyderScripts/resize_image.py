@@ -2,8 +2,8 @@ import os
 
 import cv2
 
-input_images_path = '/home/nbellorin/PycharmProjects/procesamientoImagenes/spyderScripts/dataGenerated/original/'
-output_images_path = '/home/nbellorin/PycharmProjects/procesamientoImagenes/spyderScripts/dataGenerated/resized/'
+input_images_path = '/home/nbellorin/PycharmProjects/procesamientoImagenes/spyderScripts/dataGenerated/generated/'
+output_images_path = '/home/nbellorin/PycharmProjects/procesamientoImagenes/spyderScripts/dataGenerated/resized/nodni'
 
 #input_images_path = "C:/Users/Gaby/Desktop/Leer varias imagenes/input_images"
 #output_images_path = "C:/Users/Gaby/Desktop/Leer varias imagenes/output_images"
@@ -27,7 +27,7 @@ for file_name in files_names:
     if image is None:
         continue
     #image = cv2.cvtColor(image, cv2.COLOR_YCrCb2RGB)
-    image = cv2.resize(image, (21, 28), interpolation=cv2.INTER_CUBIC)
+    image = cv2.resize(image, (28, 21), interpolation=cv2.INTER_CUBIC)
     cv2.imwrite(output_images_path + "/image" + str(count) + ".jpg", image)
     count += 1
     '''
