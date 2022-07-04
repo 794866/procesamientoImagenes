@@ -1,3 +1,4 @@
+/spyderScripts/dataGenerated/.*
 /spyderScripts/dataGenerated/generated/*
 /spyderScripts/dataGenerated/resized/dni/*
 /spyderScripts/dataGenerated/resized/nodni/*
