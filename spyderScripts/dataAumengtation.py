@@ -17,7 +17,7 @@ from os import path
 import imghdr
 
 pathLoadImg = 'dataGenerated/original/'
-pathToSaveImg = 'dataGenerated/generated/'
+pathToSaveImg = 'dataGenerated/generated/dni'
 
 def imageGenerator():
     print("loading example images ...")
